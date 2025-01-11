@@ -1,7 +1,7 @@
 import { Card, CardContent, CardFooter, CardHeader } from '../ui/card'
 import { Input } from '../ui/input'
 import { Button } from '../ui/button'
-import { ArrowLeft, Download, File } from 'lucide-react'
+import { ArrowLeft } from 'lucide-react'
 import { useRecoilState } from 'recoil'
 import { billingInputAtom, clientInputAtom } from '../../store/atom'
 

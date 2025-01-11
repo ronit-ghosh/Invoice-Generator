@@ -6,8 +6,8 @@ import Items from "./PDF/Items";
 import Footer from "./PDF/Footer";
 import Discount from "./PDF/Discount";
 
-Font.register({ family: 'Poppins', src: 'src/fonts/Poppins-Regular.ttf' });
-Font.register({ family: 'PoppinsBold', src: 'src/fonts/Poppins-Bold.ttf' });
+Font.register({ family: 'Poppins', src: '/fonts/Poppins-Regular.ttf' });
+Font.register({ family: 'PoppinsBold', src: '/fonts/Poppins-Bold.ttf' });
 
 const PDF = ({ billingValues, clientValues, totalAmount }: { billingValues: any, clientValues: any, totalAmount: any }) => {
 

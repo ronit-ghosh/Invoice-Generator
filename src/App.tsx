@@ -8,8 +8,8 @@ import { billingInputAtom, clientInputAtom, totalAmountAtom } from "./store/atom
 import PDF from "./components/PDF";
 import { Button } from "./components/ui/button";
 
-Font.register({ family: 'Poppins', src: 'src/fonts/Poppins-Regular.ttf' });
-Font.register({ family: 'PoppinsBold', src: 'src/fonts/Poppins-Bold.ttf' });
+Font.register({ family: 'Poppins', src: '/fonts/Poppins-Regular.ttf' });
+Font.register({ family: 'PoppinsBold', src: '/fonts/Poppins-Bold.ttf' });
 
 const App = () => {
 
