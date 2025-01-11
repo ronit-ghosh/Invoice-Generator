@@ -76,12 +76,6 @@ const BillingInputs = ({ onTabChange }: { onTabChange: (v: 'client' | 'bill') =>
                         onChange={(e) => setClientInputs({ ...clientInputs, discount: e.target.value })} />
                 </CardFooter>
                 <Button onClick={() => onTabChange('client')}> <ArrowLeft /> Previous</Button>
-                <div className="flex justify-center gap-3">
-                    <Button> Preview <File /> </Button>
-                    <Button>
-                        Download <Download />
-                    </Button>
-                </div>
             </CardContent>
         </Card>
     )
